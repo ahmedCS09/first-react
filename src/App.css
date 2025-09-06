@@ -8,6 +8,10 @@ body{
   background-color: rgb(198, 216, 112);
 }
 
+html{
+  overflow-x: hidde;
+}
+
 nav{
   background-color: rgb(143, 163, 30);
 }
