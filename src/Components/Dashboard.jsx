@@ -45,6 +45,7 @@ useEffect(() => {fetchUsers()}, [])
 
     return(
         <>
+        <link rel="icon" href="./src/assets/users_icon.png" />
         <br/>
         <h1 className="heading" style={{textAlign: 'center', fontSize: 'xx-large', fontWeight: 'bolder', color: 'rgba(120, 135, 36, 1)'}}>{text}</h1>
         <br/>

@@ -10,7 +10,7 @@ let Login = () => {
     const navigate = useNavigate();
 
     let moveToDash = () => {
-    navigate('/dashboard')
+    navigate('/')
     };
 
     let handleLogin = () => {
@@ -29,7 +29,7 @@ else if (password === "")
     alert("Fill Required Password");
 }
 else{
-    navigate('/dashboard')
+    navigate('/')
 }
     }
 
