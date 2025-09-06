@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-x: hidden;
+  background-color: rgb(198, 216, 112);
+}
+
+nav{
+  background-color: rgb(143, 163, 30);
+}
+
+.card
+{
+  background-color: whitesmoke;
+  transition: all 0.25s ease-in-out;
+  min-width: 375px;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.itag{
+  transform: scale(1.5);
+}
+
+.itag:hover
+{
+  cursor: pointer;
+}
+
+@media(max-width: 425px)
+{
+  .carousel
+  {
+    display: none;
+  }
+
+  footer
+  {
+  transform: scale(0.8);
+  }
+
+}
+
+@media(max-width: 356px)
+{
+  .heading{
+    padding-left: 10vh;
+  }
+
+}
+
+@media(max-width: 400px) and (min-width: 350px)
+{
+  .card
+  {
+    margin-left: 3vw;
+  }
+}
+
+@media(max-width: 350px) and (min-width: 310px)
+{
+  .card
+  {
+    margin-left: 15vw;
+  }
+}
+
+@media(max-width: 310px) and (min-width: 270px)
+{
+  .card
+  {
+    margin-left: 35vw;
+  }
+}
+
+@media(max-width: 270px) and (min-width: 230px)
+{
+  .card
+  {
+    margin-left: 56vw;
+  }
+}
+
+@media(max-width: 230px)
+{
+  .card
+  {
+    margin-left: 90vw;
+    transform: scale(0.8);
+  }
+}
